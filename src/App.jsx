@@ -1,5 +1,5 @@
-import mrEggSushi from "/icons/mr-egg-sushi-trans.png";
-import "./styles/App.css";
+import mrEggSushi from '/icons/mr-egg-sushi-trans.png';
+import './styles/App.css';
 
 function App() {
   return (
