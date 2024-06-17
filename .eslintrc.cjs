@@ -4,11 +4,13 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
+    'plugin:@typescript-eslint/recommended',
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
     "prettier",
   ],
   ignorePatterns: ["dist", ".eslintrc.cjs"],
+  parser: '@typescript-eslint/parser',
   parserOptions: { ecmaVersion: "latest", sourceType: "module" },
   settings: { react: { version: "18.2" } },
   plugins: ["react-refresh", "react", 'react-hooks'],
