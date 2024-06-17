@@ -39,7 +39,7 @@ export default function Header() {
                 </div>
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="h-8 w-auto"
+                    className="h-12 w-auto"
                     src={tetripsLogo}
                     alt="tetrips logo"
                   />
